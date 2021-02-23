@@ -338,15 +338,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(+44) 7944 269820",
-  email_address: "dj.catlyn@gmail.com"
+  number: "((323) 768 0674)",
+  email_address: "contact@davidrakosi.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: true // Set true to display this section, defaults to false
 };
 
 export {

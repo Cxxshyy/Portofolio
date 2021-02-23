@@ -38,10 +38,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Enthusiastic Future entrepeneur who is looking to grow as not only a coder but an individual",
+  subTitle: "Enthusiastic Future Software entrepeneur who is looking to grow as not only a coder but an individual",
   skills: [
     emoji(
-      "⚡ Develop Discord bots PPrimarily to your needs"
+      "⚡ Develop Discord bots Primarily to your needs"
     ),
     emoji("⚡ Develop web applications in java for you with spring boot")
   ],
@@ -73,10 +73,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "firebase",

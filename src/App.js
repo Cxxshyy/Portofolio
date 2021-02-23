@@ -8,5 +8,6 @@ function App() {
       <Main />
     </div>
   );
+  
 }
 export default App;

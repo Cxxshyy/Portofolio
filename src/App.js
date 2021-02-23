@@ -9,5 +9,4 @@ function App() {
     </div>
   );
 }
-yarn
 export default App;

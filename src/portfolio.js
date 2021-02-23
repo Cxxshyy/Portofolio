@@ -137,37 +137,48 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
+      role: "Software Entrepreneur",
+      company: "Freelancer",
+      companylogo: require("./assets/images/freelancer.png"),
       date: "September 2020 – Present",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "I lead a team of developers tackling all sorts of projects on freelancer.",
+        descBullets: [
+          "Discord Bots",
+          "Web Applications",
+          "Websites"
+        ]
+    },
+    {
+      role: "Software Entrepreneur",
+      company: "Fiverr",
+      companylogo: require("./assets/images/fiverr.jpg"),
+      date: "November 2020 – Present",
+      desc:
+        "I lead a team of developers tackling all sorts of projects on fiverr.",
+        descBullets: [
+          "Discord Bots",
+          "Web Applications",
+          "Websites"
+        ]
+    },
+    {
+    role: "Student",
+    company: "CP Company",
+    companylogo: require("./assets/images/cpLogo.png"),
+    date: "February 2020 – Present",
+    desc:
+      "I am currently a student for CP Company looking to progress in my coding skills and land a job. 🏆 ",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "ReactJs",
+        "Redux",
+        "React Native",
+        "Typescript",
+        "And many more skills to learn🚀"
       ]
-    },
-    {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
-      desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
-    },
-    {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
     }
   ]
 };

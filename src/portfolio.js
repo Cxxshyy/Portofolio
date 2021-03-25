@@ -81,6 +81,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "scss",
       fontAwesomeClassname: "fab fa-sass",
     },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java",
+    },
   ],
   display: true, // Set false to hide this section, defaults to true
 };

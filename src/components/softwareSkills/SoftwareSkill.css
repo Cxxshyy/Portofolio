@@ -17,8 +17,33 @@
   color: #868e96;
 }
 
-.software-skill-inline > i:hover {
-  color: #645beb;
+i.fab.fa-html5:hover {
+  color: rgb(172, 85, 14);
+}
+i.fab.fa-css3-alt:hover {
+  color: rgb(43, 43, 216);
+}
+i.fab.fa-sass:hover {
+  color: rgb(226, 73, 201);
+}
+i.fas.fa-fire:hover {
+  color: orangered;
+}
+i.fab.fa-js:hover {
+  color: rgb(233, 229, 14);
+}
+i.fab.fa-react:hover {
+  color: blue;
+}
+i.fab.fa-node:hover {
+  color: green;
+}
+i.fab.fa-node:hover {
+  color: green;
+}
+
+i.fab.fa-npm:hover {
+  color: rgb(238, 68, 26);
 }
 .software-skill-inline > p {
   color: #868e96;

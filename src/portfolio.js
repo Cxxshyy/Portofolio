@@ -5,18 +5,18 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: false, // set to false to use static SVG
+  animated: true, // set to false to use static SVG
 };
 
 const greeting = {
   username: "James Lugenga ",
   title: "Hi all, I'm James",
   subTitle: emoji(
-    "A passionate 16-year old who currently runs a business with a team of developers,looking to Learn React JS with the CP team and earn my first 4 figure month🚀🚀"
+    "A passionate 16-year old who currently runs a business with a team of developers,looking to become a Software Engineer🚀🚀"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
-  displayGreeting: true, // Set false to hide this section, defaults to true
+  displayGreeting: false, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -64,10 +64,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react",
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node",
     },
     {
       skillName: "npm",
